@@ -1,0 +1,147 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:after,
+*::before {
+  box-sizing: inherit;
+}
+
+.fw-widget-wrapper {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  width: 90vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.dropdown-box {
+  width: 80vw;
+  border-color: rgb(34, 156, 187);
+  border-radius: 3px;
+  border-width: 2px;
+  font-weight: 600;
+  color: rgb(97, 97, 97);
+}
+.dropdown-box-fsa {
+  width: 80vw;
+  border-color: rgb(245, 203, 19);
+  border-radius: 3px;
+  border-width: 2px;
+  font-weight: 600;
+  color: rgb(97, 97, 97);
+}
+
+.ticket-title,
+.title {
+  font-weight: bolder;
+  color: rgb(104, 98, 98);
+}
+.btn-cls {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 7%;
+  font-size: small;
+}
+.button {
+  padding: 4%;
+  background-color: rgb(34, 156, 187);
+  color: aliceblue;
+  font-weight: bolder;
+  border: 0;
+  border-radius: 2px;
+}
+
+.button-fsa {
+  padding: 5%;
+  background-color: rgb(246, 176, 25);
+  color: aliceblue;
+  font-weight: bolder;
+  border: 0;
+  border-radius: 2px;
+}
+
+.select-mod-div,
+.select-cat-div {
+  margin-bottom: 6%;
+}
+.image-top {
+  margin-bottom: 5%;
+}
+
+.el-none {
+  display: none;
+}
+
+.titlebox {
+  font-weight: 600 !important;
+  border: 2px !important;
+  border-color: rgb(34, 156, 187) !important;
+}
+
+.price-div {
+  margin-top: 5%;
+}
+
+.field {
+  width: 80vw;
+  border: 1px solid rgb(34, 156, 187);
+  border-radius: 2px;
+  border-width: 2px;
+  font-weight: 600;
+  margin-top: 2%;
+}
+
+.reset {
+  display: flex;
+  margin-top: 4%;
+  justify-content: space-around;
+}
+
+.custom-fields-div {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 5px;
+}
+
+body > div > form > div.custom-fields-div > label,
+body > div > form > div.custom-fields-div > div > label {
+  color: rgb(64, 64, 64);
+  font-weight: 600;
+  font-size: 14px;
+  margin-bottom: 4%;
+}
+
+body > div > form > div.custom-fields-div {
+  border-radius: 2px;
+}
+
+body > div > form > div.custom-fields-div > input,
+body > div > form > div.custom-fields-div > select,
+body > div > form > div.custom-fields-div > textarea,
+body > div > form > div.custom-fields-div > div > input,
+body > div > form > div.custom-fields-div > div > select,
+body > div > form > div.custom-fields-div > div > textarea {
+  border: 2px solid #9d9c9c;
+  border-radius: 2px 2px 2px 2px;
+  width: 75vw;
+}
+
+body > div > form > div.custom-fields-div > input[type="checkbox"],
+body > div > form > div.custom-fields-div > div > input[type="checkbox"] {
+  border: 2px solid #9d9c9c;
+  border-radius: 2px 2px 2px 2px;
+  width: 6vw;
+}

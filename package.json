@@ -1,0 +1,17 @@
+{
+  "name": "app-test",
+  "version": "1.0.0",
+  "description": "This app displays the name of the requester of a freshdesk ticket in the ticket_sidebar placeholder",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "node-fetch": "^2.6.7",
+    "request": "^2.88.2"
+  }
+}

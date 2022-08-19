@@ -1,0 +1,70 @@
+<html>
+  <head>
+    <script src="https://static.freshdev.io/fdk/2.0/assets/fresh_client.js"></script>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://static.freshdev.io/fdk/2.0/assets/freshdesk.css"
+    />
+    <link rel="stylesheet" type="text/css" href="styles/style.css" />
+  </head>
+
+  <body>
+    <div class="fw-widget-wrapper">
+      <div class="image-top">
+        <img width="130px" src="styles/images/fsicon.svg" />
+      </div>
+
+      <p class="ticket-title">Select a Module</p>
+
+      <form class="myform">
+        <div class="select-mod-div">
+          <select class="module-select dropdown-box">
+            <option value="select-module">Select a Module</option>
+            <option value="request">Service Request Module</option>
+          </select>
+        </div>
+
+        <div class="select-cat-div el-none">
+          <select
+            id="request-categories"
+            class="categories-select dropdown-box"
+          ></select>
+        </div>
+
+        <div class="select-item-div el-none">
+          <select class="items-select dropdown-box"></select>
+        </div>
+
+        <div class="custom-fields-div"></div>
+
+        <div class="additional-items-div"></div>
+
+        <div class="btn-cls">
+          <button
+            class="el-none btn-center button"
+            id="create-ticket-button"
+            type="submit"
+            value="Submit input"
+          >
+            Create Ticket
+          </button>
+
+          <button
+            class="el-none btn-center button reset"
+            id="reset-form"
+            type="submit"
+            value="Submit input"
+          >
+            Reset Form
+          </button>
+        </div>
+      </form>
+
+      <div class="ticket-created-div"></div>
+    </div>
+  </body>
+  <script src="scripts/app.js"></script>
+  <script src="scripts/appFunctions.js"></script>
+  <script src="scripts/fsIntegration.js"></script>
+</html>

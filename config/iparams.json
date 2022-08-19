@@ -1,0 +1,40 @@
+{
+    "domainName": {
+        "display_name": "Domain Name",
+        "description": "Please enter your domain name",
+        "type": "domain",
+        "type_attributes": {
+          "product": "freshdesk"
+        },
+        "required": true
+      },
+      "apiKey": {
+        "display_name": "API Key",
+        "description": "Please enter your api_key",
+        "type": "api_key",
+        "secure": true,
+        "required": true,
+        "type_attributes": {
+          "product": "freshdesk"
+        }
+      },
+      "domainNameFs": {
+        "display_name": "Domain Name",
+        "description": "Please enter your domain name",
+        "type": "domain",
+        "type_attributes": {
+          "product": "freshservice"
+        },
+        "required": true
+      },
+      "apiKeyFs": {
+        "display_name": "API Key",
+        "description": "Please enter your api_key",
+        "type": "api_key",
+        "secure": true,
+        "required": true,
+        "type_attributes": {
+          "product": "freshservice"
+        }
+      }
+}

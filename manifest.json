@@ -1,0 +1,27 @@
+{
+  "platform-version": "2.2",
+  "product": {
+    "freshdesk": {
+      "location": {
+        "ticket_sidebar": {
+          "url": "index.html",
+          "icon": "styles/images/icon.svg"
+        }
+      }
+    }
+  },
+  "whitelisted-domains": [
+    "https://gbdemo.freshdesk.com",
+    "https://gb-advisorspresales2.freshdesk.com",
+    "https://gb-advisorspresales.freshdesk.com",
+    "https://online.acunetix.com",
+    "https://cloud.tenable.com",
+    "https://gb-advisorspresales.myfreshworks.com",
+    "https://gbdemo.freshservice.com",
+    "https://gb-advisorspresales.freshservice.com"
+  ],
+  "engines": {
+    "node": "14.19.1",
+    "fdk": "8.0.0"
+  }
+}
